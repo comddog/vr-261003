@@ -1,0 +1,227 @@
+{
+  "title": "",
+  "author": "",
+  "startScene": "s01",
+  "scenes": [
+    {
+      "id": "s01",
+      "name": "공간01",
+      "description": "",
+      "image": "./panoramas/001.jpg",
+      "hotspots": [
+        {
+          "target": "s07",
+          "yaw": -71,
+          "pitch": 0,
+          "text": "공간07로 이동"
+        },
+        {
+          "target": "s02",
+          "yaw": 10,
+          "pitch": 0,
+          "text": "공간02"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s02",
+      "name": "공간02",
+      "description": "",
+      "image": "./panoramas/002.jpg",
+      "hotspots": [
+        {
+          "target": "s03",
+          "yaw": 122,
+          "pitch": 0,
+          "text": "공간03로 이동"
+        },
+        {
+          "target": "s01",
+          "yaw": -175,
+          "pitch": 0,
+          "text": "공간01로 이동"
+        },
+        {
+          "target": "s06",
+          "yaw": -48,
+          "pitch": 0,
+          "text": "공간06로 이동"
+        }
+      ],
+      "popups": [
+        {
+          "id": "ppmuqwmfby",
+          "name": "동영상",
+          "yaw": 7.2,
+          "pitch": 16.487414020421618,
+          "kind": "video",
+          "url": "https://youtu.be/Bc_HbQ4-ls0?si=Pfp_QM_ItmREepJV",
+          "text": "https://youtu.be/Bc_HbQ4-ls0?si=Pfp_QM_ItmREepJV",
+          "fontSize": 20,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0
+        },
+        {
+          "id": "ppmur6fsv1",
+          "name": "팝업2dfcdf",
+          "yaw": 91.9,
+          "pitch": -2.3,
+          "kind": "text",
+          "url": "",
+          "text": "여기는\n양운초\n입니다",
+          "fontSize": 25,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#ff0000",
+          "bgAlpha": 0.5
+        },
+        {
+          "id": "ppmur7xwnl",
+          "name": "모션베드",
+          "yaw": -29.8,
+          "pitch": 0.44975235394240803,
+          "kind": "image",
+          "url": "https://mstatic1.e-himart.co.kr/app/goods/getGoodsDescContMob?goodsNo=0020701523&stonType=Android/pagedesk/mxt/resource/Po356aHxm1CVnmE2iCoe9c9~F8IrUsBewJkbJydolANDr-wrToVnGicBPwvjRLSOk6ZG-gwL1BK0uldxLh9eJpiBi1NeHre5bK2QaAxRxRo_/dims/crop/0x0+0+4800/optimize",
+          "text": "",
+          "fontSize": 20,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0
+        },
+        {
+          "id": "ppmur7zbeg",
+          "name": "네이버",
+          "yaw": -93,
+          "pitch": 6.4689089115193275,
+          "kind": "web",
+          "url": "https://www.naver.com/",
+          "text": "",
+          "fontSize": 20,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0
+        },
+        {
+          "id": "ppmur840gb",
+          "name": "PDF",
+          "yaw": -114.3,
+          "pitch": -4.795398246258274,
+          "kind": "pdf",
+          "url": "https://drive.google.com/file/d/1OxohJpQXn8EXYfQK5ys3BSmh2wDFSjPw/view?usp=sharing",
+          "text": "",
+          "fontSize": 20,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0
+        },
+        {
+          "id": "ppmur99a6t",
+          "name": "더 나은 세상...",
+          "yaw": 32.5,
+          "pitch": -1.7137064953447547,
+          "kind": "image",
+          "url": "https://drive.google.com/file/d/1ML-X9NPUWglWQv6n3VIMyA2JKvvbFxil/view?usp=sharing",
+          "text": "",
+          "fontSize": 20,
+          "bold": false,
+          "color": "#ffffff",
+          "bg": "#000000",
+          "bgAlpha": 0
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "name": "공간03",
+      "description": "",
+      "image": "./panoramas/003.jpg",
+      "hotspots": [
+        {
+          "target": "s04",
+          "yaw": 0,
+          "pitch": 0,
+          "text": "공간04로 이동"
+        },
+        {
+          "target": "s02",
+          "yaw": -90,
+          "pitch": 0,
+          "text": "공간02로 이동"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s04",
+      "name": "공간04",
+      "description": "",
+      "image": "./panoramas/004.jpg",
+      "hotspots": [
+        {
+          "target": "s05",
+          "yaw": 0,
+          "pitch": 0,
+          "text": "공간05로 이동"
+        },
+        {
+          "target": "s03",
+          "yaw": 180,
+          "pitch": 0,
+          "text": "공간03로 이동"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s05",
+      "name": "공간05",
+      "description": "",
+      "image": "./panoramas/005.jpg",
+      "hotspots": [
+        {
+          "target": "s04",
+          "yaw": 46,
+          "pitch": 0,
+          "text": "공간04로 이동"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s06",
+      "name": "공간06",
+      "description": "",
+      "image": "./panoramas/p01.jpg",
+      "hotspots": [
+        {
+          "target": "s02",
+          "yaw": 96,
+          "pitch": 0,
+          "text": "공간02로 이동"
+        }
+      ],
+      "popups": []
+    },
+    {
+      "id": "s07",
+      "name": "공간07",
+      "description": "",
+      "image": "./panoramas/IMG_20261003_032710_00_074.jpg",
+      "hotspots": [
+        {
+          "target": "s01",
+          "yaw": 35,
+          "pitch": 0,
+          "text": "공간01로 이동"
+        }
+      ],
+      "popups": []
+    }
+  ]
+}

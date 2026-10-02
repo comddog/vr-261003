@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>박경리 기념관 가상현실 투어</title>
+<link rel="stylesheet" href="./styles.css?v=20261001e" />
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+<div id="app">
+  <canvas id="view"></canvas>
+  <div id="hotspot-layer"></div>
+  <div id="fade"></div>
+
+  <header id="topbar">
+    <div class="title-wrap">
+      <h1 id="scene-title">로딩 중…</h1>
+      <p id="scene-desc"></p>
+    </div>
+    <div class="top-actions">
+      <button id="zoom-out" title="축소">－</button>
+      <button id="zoom-reset" title="기본 크기">1×</button>
+      <button id="zoom-in" title="확대">＋</button>
+      <button id="autorotate-btn" title="자동 회전">⟳</button>
+      <button id="fullscreen-btn" title="전체화면">⛶</button>
+      <button id="edit-btn" title="편집기 열기" onclick="location.href='./edit.html'">✎</button>
+    </div>
+  </header>
+
+  <div id="bottombar"><nav id="scene-list"></nav></div>
+
+  <div id="popup-modal">
+    <div id="popup-box">
+      <div id="popup-title"></div>
+      <button id="popup-close" title="닫기">✕</button>
+      <div id="popup-body"></div>
+    </div>
+  </div>
+
+  <div id="loading">
+    <div class="spinner"></div>
+    <p id="loading-text">파노라마 로딩 중…</p>
+  </div>
+
+  <div id="help">© KSMS All rights reserved.</div>
+</div>
+<script type="module" src="./viewer.js?v=20261001d"></script>
+</body>
+</html>
